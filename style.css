@@ -420,6 +420,7 @@
     }
 
     .add-content span {
+        display: inline-block;
         font-size: 1em;
         color: white;
         border: 1px solid white;
