@@ -264,7 +264,7 @@
     body {
         display: flex;
         flex-direction: column;
-        width: 100vw;  
+        width: 96.5vw;  
     }
 
     header {
@@ -295,7 +295,7 @@
     }
 
     .box-img img {
-        max-width: 483px;
+        max-width: 96.5vw;
     }
 
     .apresentation-acording {
