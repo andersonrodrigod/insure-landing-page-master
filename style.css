@@ -81,27 +81,26 @@
 
     .apresentation-page {
         background-color: var(--DarkViolet);
-        position: relative;
+        padding-top: 50px;
+        padding-bottom: 180px;
     }
 
-    .apresentation-acording {
-        display: flex;
-        padding-bottom: 100px;  
-    }
-
-    .apresentation-acording section {
-        margin-top: 100px;
+    .advertising {
         margin-left: 120px;
-        padding-right: 290px;
-        
+        padding-right: 690px;
+    }
+
+    .border {
+        border-top: 1px solid white;
+        width: 120px;
     }
 
     .apresentation-acording section h1 {
         font-size: 3.5em;
         color: white;
-        border-top: 1px solid white;
         overflow: hidden;
         padding-top: 60px;
+        padding-right: 100px;
         padding-bottom: 10px;
         font-family: 'DM Serif Display';
         font-weight: 400; 
@@ -143,9 +142,13 @@
         margin-left: 120px;
     }
 
-    .peripheral-content h1{
-        font-size: 3.5em;
+    .border-1 {
         border-top: 1px solid black;
+        width: 120px;
+    }
+
+    .peripheral-content h1{
+        font-size: 3.5em;  
         width: 500px;
         padding-top: 50px;
     }
@@ -217,11 +220,16 @@
         font-family: 'DM Serif Display', serif;
         letter-spacing: 0.1em;
         font-weight: bold;
+        cursor: pointer;
     }
 
     .img-acording {
         display: flex;
         gap: 20px;
+    }
+
+    .img-acording img:hover {
+        cursor: pointer;
     }
 
     .footer-interactive {
@@ -245,5 +253,23 @@
     .footer-interactive li {
         margin-top: 8px;
     }
+
+    .footer-interactive li:hover {
+        cursor: pointer;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .close {
+        display: none;
+    }
     
+}
+
+@media only screen and (max-width: 550px) {
+    .box-img img {
+        max-width: 400px;
+    }
 }
