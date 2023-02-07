@@ -276,6 +276,7 @@
         justify-content: space-between;
         align-items: center;
         padding-bottom: 20px;
+        width: 100vw;
     }
 
     .close {
@@ -480,6 +481,10 @@
         font-size: 1.3em;
         color: var(--DarkGrayishViolet);
         margin-bottom: 30px;
+    }
+
+    footer {
+        width: 100vw;
     }
 
     .footer-interactive ul {
