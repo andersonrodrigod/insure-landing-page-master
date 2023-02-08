@@ -192,7 +192,7 @@
         color: white;
     }
 
-    .add-content span {
+    .add-content div span {
         font-size: 1em;
         color: white;
         border: 1px solid white;
@@ -419,16 +419,20 @@
         line-height: 1em;
     }
 
-    .add-content span {
+    .add-content div {
+
+    }
+
+    .add-content div span {
         display: inline-block;
         font-size: 1em;
         color: white;
         border: 1px solid white;
-        padding: 12px 0px 12px 0px;
+        padding: 12px 20px 12px 20px;
         margin-top: 40px;
         margin-bottom: 70px;
-        width: 150px;
-        margin-left: 142px;
+        
+        
         
     }
 
