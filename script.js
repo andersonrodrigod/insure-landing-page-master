@@ -15,5 +15,5 @@ close.addEventListener("click", () => {
     menu.style.display = "none"
     close.style.display = "none"
     hamb.style.display = "block"
-    document.body.style.remove = "overflow"
+    document.body.style.overflow = "auto"
 })
